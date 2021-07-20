@@ -1,0 +1,5 @@
+meta_product_name: "Atelier la Ronde de Nuit"
+meta_title: "Atelier la Ronde de Nuit - Restauration et Conservation de peintures anciennes"
+meta_description: "Une restauration de tableau n’est pas une simple réparation, mais la volonté de sauver notre patrimoine en prodiguant soins et conseils en vue d’une excellente conservation des œuvres à l’avenir. Nous en sommes les garants."
+meta_image: "ronde_de_nuit.png" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards

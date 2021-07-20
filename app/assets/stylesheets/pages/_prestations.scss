@@ -25,6 +25,7 @@
   justify-content: space-between;
 }
 
+
 .conservation_img_content_global {
   padding: 12px;
 }
@@ -126,4 +127,11 @@
 .preventive_global {
   padding: 12px;
   display: table;
+}
+
+
+@media (max-width:600px) {
+  .prestation {
+    display: table-cell;
+  }
 }

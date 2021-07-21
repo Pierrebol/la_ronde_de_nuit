@@ -1,50 +1,87 @@
-.form-contact {
-  background-color: white;
-  padding: 54px;
-  h2 {
-  color: black;
+#contact-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
   }
 }
+// .form-contact {
+//   background-color: white;
+//   padding: 54px;
+//   h2 {
+//   color: black;
+//   }
+// }
 
-.form {
-  position: relative;
-  display: block;
-}
+// .form {
+//   position: relative;
+//   display: block;
+// }
 
-#nom {
-  width: 50%;
-  float: left;
-  border-radius: 0px 0 0 0px;
-}
+// #nom {
+//   width: 50%;
+//   float: left;
+//   border-radius: 0px 0 0 0px;
+// }
 
-#prenom {
-  border-radius: 0 0px 0px 0;
-  border-left: none;
-}
+// #prenom {
+//   border-radius: 0 0px 0px 0;
+//   border-left: none;
+// }
 
-#telephone {
-  width: 50%;
-  float: left;
-  border-radius: 0px 0 0 0px;
-}
+// #telephone {
+//   width: 50%;
+//   float: left;
+//   border-radius: 0px 0 0 0px;
+// }
 
-#adme {
-  border-radius: 0 0px 0px 0;
-  border-left: none;
-}
+// #adme {
+//   border-radius: 0 0px 0px 0;
+//   border-left: none;
+// }
 
-#commentaire {
-  height: 100px;
-}
+// #commentaire {
+//   height: 100px;
+// }
 
-.separateur {
-  width: 100%;
-  position: relative;
-  clear: both;
-  margin: 0 !important;
-  height: 1.6vw;
-}
+// .separateur {
+//   width: 100%;
+//   position: relative;
+//   clear: both;
+//   margin: 0 !important;
+//   height: 1.6vw;
+// }
 
-.half {
-  padding: 18px;
-}
+// .half {
+//   padding: 18px;
+// }
+
